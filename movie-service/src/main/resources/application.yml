@@ -5,5 +5,8 @@ spring:
     password: root
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: create
     show-sql: true
+
+server:
+  port: 1111
